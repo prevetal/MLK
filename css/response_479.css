@@ -1,0 +1,242 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 28px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .text_block
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header .logo span
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .data:before
+    {
+        border-radius: 6px;
+
+        clip-path: polygon(24px 0, 100% 0, 100% 100%, 0 100%, 0 24px);
+    }
+
+
+    .page_head .data .image
+    {
+        bottom: -32px;
+
+        width: 100px;
+        height: 100px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *.width1of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h1
+    {
+        font-size: 24px;
+
+        margin-bottom: 28px !important;
+    }
+
+    .text_block h2
+    {
+        font-size: 22px;
+    }
+
+    .text_block h3
+    {
+        font-size: 20px;
+    }
+
+
+    .text_block * + h2,
+    .text_block * + h3
+    {
+        margin-top: 48px;
+    }
+
+
+    .text_block .main_slider
+    {
+        border-radius: 8px;
+
+        clip-path: polygon(24px 0, 100% 0, 100% 100%, 0 100%, 0 24px);
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .data
+    {
+        height: 464px;
+        padding: 40px 24px;
+    }
+
+
+    .main_slider .data:before
+    {
+        border-radius: 8px;
+
+        clip-path: polygon(24px 0, 100% 0, 100% 100%, 0 100%, 0 24px);
+    }
+
+
+    .main_slider .link
+    {
+        width: 100%;
+    }
+
+
+    .main_slider .img
+    {
+        width: 88%;
+    }
+
+
+
+    /*-------------
+        Marquee
+    -------------*/
+    .marquee .swiper:before,
+    .marquee .swiper:after
+    {
+        width: 24px;
+    }
+
+
+
+    /*----------------
+        Technology
+    ----------------*/
+    .technology .item + .item:before,
+    .technology .item:last-child:before
+    {
+        right: -36px;
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages .row
+    {
+        margin-left: 0;
+    }
+
+
+    .advantages .row > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    .advantages .item
+    {
+        height: 172px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .img
+    {
+        top: -16px;
+
+        width: 160px;
+        height: 160px;
+    }
+
+
+    .order .form
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*------------------
+        Image slider
+    ------------------*/
+    .image_slider .swiper-button-prev
+    {
+        left: 0;
+    }
+
+
+    .image_slider .swiper-button-next
+    {
+        right: 0;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .name
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

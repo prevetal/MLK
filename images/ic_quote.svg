@@ -1,0 +1,22 @@
+<svg width="84" height="51" viewBox="0 0 84 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1321315667">
+<path id="Rectangle 14037" d="M0 4C0 1.79086 1.79086 0 4 0H26.4138C28.6229 0 30.4138 1.79086 30.4138 4V24.4138C30.4138 27.7275 27.7275 30.4138 24.4138 30.4138H4C1.79086 30.4138 0 28.6229 0 26.4138V4Z" fill="#9A1313"/>
+<path id="Rectangle 14038" d="M39.8281 4C39.8281 1.79086 41.619 0 43.8281 0H66.2419C68.4511 0 70.2419 1.79086 70.2419 4V24.4138C70.2419 27.7275 67.5556 30.4138 64.2419 30.4138H43.8281C41.619 30.4138 39.8281 28.6229 39.8281 26.4138V4Z" fill="#9A1313"/>
+<g id="Mask group">
+<mask id="mask0_7031_1439" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="56" y="26" width="28" height="25">
+<rect id="Rectangle 14039" x="56.8281" y="26.1377" width="26.7931" height="23.8966" rx="4" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_7031_1439)">
+<circle id="Ellipse 1120" cx="55.7418" cy="25.0514" r="9.12069" stroke="#9A1313" stroke-width="10"/>
+</g>
+</g>
+<g id="Mask group_2">
+<mask id="mask1_7031_1439" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="17" y="26" width="27" height="25">
+<rect id="Rectangle 14039_2" x="17" y="26.1377" width="26.7931" height="23.8966" rx="4" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_7031_1439)">
+<circle id="Ellipse 1120_2" cx="15.9137" cy="25.0515" r="9.12069" stroke="#9A1313" stroke-width="10"/>
+</g>
+</g>
+</g>
+</svg>

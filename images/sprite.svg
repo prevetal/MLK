@@ -1,0 +1,28 @@
+<svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 16" id="ic_arr_hor">
+    <path d="M9 1L2 8L9 15" stroke="currentColor" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 7" id="ic_arr_ver">
+    <path id="Vector 4" d="M1 6L5 2L9 6" stroke="currentColor" stroke-width="2"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" id="ic_check">
+    <path d="M14.8722 0C16.6553 0 17.3018 0.185651 17.9537 0.534266C18.6055 0.88288 19.1171 1.39446 19.4657 2.04631C19.8143 2.69816 20 3.34473 20 5.12777V14.8722C20 16.6553 19.8143 17.3018 19.4657 17.9537C19.1171 18.6055 18.6055 19.1171 17.9537 19.4657C17.3018 19.8143 16.6553 20 14.8722 20H5.12777C3.34473 20 2.69816 19.8143 2.04631 19.4657C1.39446 19.1171 0.88288 18.6055 0.534266 17.9537C0.185651 17.3018 0 16.6553 0 14.8722V5.12777C0 3.34473 0.185651 2.69816 0.534266 2.04631C0.88288 1.39446 1.39446 0.88288 2.04631 0.534266C2.69816 0.185651 3.34473 0 5.12777 0H14.8722ZM16.2931 5.66838C15.9062 5.29523 15.2934 5.29479 14.9059 5.6674L8 12.3077L5.09151 9.51416C4.70499 9.14291 4.09451 9.14238 3.70734 9.51296L3.7 9.51999C3.69076 9.52883 3.68171 9.53786 3.67285 9.54707C3.31683 9.91715 3.32823 10.5058 3.69831 10.8618L7.30704 14.3334C7.69407 14.7057 8.30607 14.7058 8.69327 14.3337L16.2989 7.02382C16.3074 7.0156 16.3158 7.00721 16.3241 6.99867C16.683 6.6265 16.6722 6.03386 16.3 5.67499L16.2931 5.66838Z" fill="currentColor"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" id="ic_close">
+    <rect width="2.01018" height="33.1679" transform="matrix(-0.710669 0.703526 -0.710669 -0.703527 25 23.3345)" fill="currentColor"></rect>
+    <rect width="2.01018" height="33.1679" transform="matrix(-0.710669 -0.703527 -0.710669 0.703526 25 1.6626)" fill="currentColor"></rect>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 16" id="ic_email">
+    <rect x="19" y="1" width="14" height="18" rx="1" transform="rotate(90 19 1)" stroke="currentColor" stroke-width="2"></rect>
+    <rect x="10.6562" y="9.50586" width="2" height="11.8285" transform="rotate(135.997 10.6562 9.50586)" fill="currentColor"></rect>
+    <rect width="2" height="13.3682" transform="matrix(0.719298 0.694702 0.694702 -0.719298 8.93359 10.6143)" fill="currentColor"></rect>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 18" id="ic_location">
+    <path d="M13 7C13 8.5931 12.0479 10.4947 10.632 12.4197C9.49097 13.9709 8.13831 15.4203 6.99918 16.5808C5.68895 15.2527 4.30264 13.776 3.1839 12.2368C1.84564 10.3956 1 8.61024 1 7C1 3.68629 3.68629 1 7 1C10.3137 1 13 3.68629 13 7Z" stroke="currentColor" stroke-width="2"></path>
+    <circle cx="7" cy="7" r="2" stroke="currentColor" stroke-width="2"></circle>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 20" id="ic_phone">
+    <rect x="1" y="1" width="14" height="18" rx="1" stroke="currentColor" stroke-width="2"></rect>
+    <rect x="7" y="14" width="2" height="2" fill="currentColor"></rect>
+  </symbol>
+</svg>

@@ -1,0 +1,566 @@
+@media print,
+(max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        right: 100%;
+        left: auto;
+
+        width: 325px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+
+        background: var(--bg);
+    }
+
+    header.show
+    {
+        transform: translateX(100%);
+    }
+
+
+    header .scroll
+    {
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 24px 0;
+
+        overscroll-behavior-y: contain;
+    }
+
+
+    header .logo
+    {
+        display: none;
+    }
+
+
+    header .phone
+    {
+        order: 2;
+
+        width: 100%;
+    }
+
+
+    header .callback_btn
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    header .location
+    {
+        order: 2;
+
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+
+        text-align: left;
+    }
+
+
+    header .location .map_link
+    {
+        margin-left: 21px;
+
+        text-align: left;
+    }
+
+
+    header .menu
+    {
+        flex-direction: column;
+
+        margin: 0 0 24px;
+        padding-bottom: 24px;
+
+        border-bottom: 1px solid #ddd;
+
+        gap: 20px;
+    }
+
+
+    header .menu_item
+    {
+        width: 100%;
+    }
+
+
+    header .menu_item > a
+    {
+        font-size: 16px;
+
+        display: inline-block;
+
+        vertical-align: top;
+    }
+
+
+    header .menu_item > a .arr
+    {
+        top: 2px;
+    }
+
+
+    header .menu_item > a:after
+    {
+        display: none;
+    }
+
+
+    header .menu_item .sub_menu,
+    header .menu_item:hover .sub_menu
+    {
+        position: relative;
+        top: 0;
+
+        display: none;
+        visibility: hidden;
+
+        width: 100%;
+        margin: 8px 0 0;
+
+        pointer-events: auto;
+
+        opacity: 1;
+    }
+
+
+    header .menu_item .sub_menu:before
+    {
+        display: none;
+    }
+
+
+    header .menu_item > a.touch_link + .sub_menu.show
+    {
+        display: block;
+        visibility: visible;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head .data
+    {
+        min-height: 180px;
+        margin-top: 24px;
+    }
+
+
+    .page_head .data .title
+    {
+        width: 440px;
+    }
+
+
+    .page_head .data .image
+    {
+        right: 0;
+
+        width: 228px;
+        height: 228px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block h2.border:before,
+    .text_block h3.border:before
+    {
+        left: -24px;
+
+        width: 4px;
+    }
+
+
+    .text_block img.left
+    {
+        max-width: 280px;
+        margin-right: 24px;
+    }
+
+    .text_block img.right
+    {
+        max-width: 280px;
+        margin-left: 24px;
+    }
+
+
+    .text_block .main_slider .controls
+    {
+        left: 40px;
+    }
+
+
+    .text_block .message
+    {
+        padding: 24px;
+
+        border-width: 2px;
+
+        clip-path: polygon(24px 0, 100% 0, 100% 100%, 0 100%, 0 24px);
+    }
+
+
+    .text_block .message:before
+    {
+        top: -29px;
+
+        width: 2px;
+    }
+
+
+    .text_block table th,
+    .text_block table td
+    {
+        padding: 8px 16px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .main_slider .data
+    {
+        height: 340px;
+        padding: 48px 40px;
+    }
+
+
+    .main_slider .img
+    {
+        height: 75%;
+    }
+
+
+    .main_slider .controls
+    {
+        left: 64px;
+    }
+
+
+
+    /*-------------
+        Marquee
+    -------------*/
+    .marquee .swiper:before,
+    .marquee .swiper:after
+    {
+        width: 200px;
+    }
+
+
+    .marquee .swiper-slide
+    {
+        font-size: 16px;
+    }
+
+
+    .marquee .swiper-slide .sep
+    {
+        height: 32px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .data
+    {
+        width: 100%;
+    }
+
+
+    .about_info .link
+    {
+        margin-top: 32px;
+    }
+
+
+    .about_info .link a
+    {
+        height: 44px;
+    }
+
+
+    .about_info .image
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Leasing
+    -------------*/
+    .leasing .item
+    {
+        height: 192px;
+        padding: 24px;
+    }
+
+
+    .leasing .item .thumb
+    {
+        bottom: -48px;
+
+        width: 160px;
+        height: 160px;
+    }
+
+
+    .leasing .item .name
+    {
+        font-size: 17px;
+    }
+
+
+    .leasing .item:hover .thumb
+    {
+        bottom: -92px;
+
+        width: 212px;
+        height: 212px;
+    }
+
+
+
+    /*----------------
+        Technology
+    ----------------*/
+    .technology .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+    .technology .row > *:last-child
+    {
+        width: calc(100% - 24px);
+    }
+
+
+    .technology .item:last-child:before
+    {
+        right: -8px;
+        left: auto;
+
+        transform: rotate(90deg);
+    }
+
+
+
+    /*----------------
+        Advantages
+    ----------------*/
+    .advantages
+    {
+        padding: 64px 0;
+    }
+
+
+    .advantages .row > *
+    {
+        max-width: calc(33.333% - 24px);
+    }
+
+
+    .advantages .item
+    {
+        height: 192px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order
+    {
+        padding: 64px 0;
+    }
+
+
+    .order .form
+    {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .order .img
+    {
+        top: -24px;
+        right: 24px;
+        bottom: auto;
+        left: auto;
+
+        width: 192px;
+        height: 192px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .col + .col
+    {
+        margin-left: 100px;
+    }
+
+
+
+    /*-----------
+        Quote
+    -----------*/
+    .quote
+    {
+        padding-top: 24px;
+    }
+
+
+    .quote .person
+    {
+        width: 260px;
+    }
+
+
+    .quote .person .photo
+    {
+        height: 296px;
+    }
+
+
+    .quote .data
+    {
+        width: calc(100% - 284px);
+    }
+
+
+    .quote .data .icon
+    {
+        width: 52px;
+    }
+
+
+    .quote .data .text_block
+    {
+        font-size: 16px;
+
+        padding: 24px;
+    }
+
+
+    .quote .data .contacts
+    {
+        padding: 0 24px;
+
+        gap: 12px 24px;
+    }
+
+
+    .quote .data .phone a
+    {
+        font-size: 17px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        padding: 64px 0;
+    }
+
+
+    .articles .article
+    {
+        width: 100%;
+    }
+
+
+    .articles .list
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .menu
+    {
+        gap: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}
