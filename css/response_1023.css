@@ -20,7 +20,14 @@
     /*------------
         Header
     ------------*/
-    header
+    .header_wrap
+    {
+        height: auto !important;
+    }
+
+
+    header,
+    header.fixed
     {
         position: fixed;
         z-index: 101;
@@ -37,6 +44,7 @@
         padding: 0;
 
         transition: transform .3s linear;
+        animation: none;
 
         background: var(--bg);
     }
@@ -105,7 +113,8 @@
     }
 
 
-    header .menu
+    header .menu,
+    header.fixed .menu
     {
         flex-direction: column;
 
