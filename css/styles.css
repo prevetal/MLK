@@ -2260,10 +2260,15 @@ header.fixed .menu
 {
     position: relative;
 
+    display: block;
+
     height: 217px;
     padding: 32px;
 
     transition: .2s linear;
+    text-decoration: none;
+
+    color: currentColor;
 }
 
 
